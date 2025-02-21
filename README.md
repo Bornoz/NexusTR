@@ -15,7 +15,8 @@ Bu rehber, 4 vCPU / 8GB RAM sunucular için tam optimize edilmiştir ve bellek s
 
 🚀 Nexus Testnet Node Kurulumu
 
-Bu script, Nexus Testnet Node'unuzu tek komut ile kurar ve sürekli çalışmasını sağlar.Kurulum tamamlandıktan sonra terminali kapatsanız bile screen sayesinde node arka planda çalışmaya devam eder.
+Nexus Testnet Node'unuzu tek komut ile kurar ve sürekli çalışmasını sağlar.
+Kurulum tamamlandıktan sonra terminali kapatsanız bile screen sayesinde node arka planda çalışmaya devam eder.
 
 **Öncelikle Gerekli Bağımlılıkların Yüklenmesi**
 ```bash
@@ -70,19 +71,6 @@ Kurulumdan sonra Nexus ağına bağlanarak NEX puan kazanmak için aşağıdaki 
 6️⃣ Terminale dönün ve şu işlemi yapın: [2] yazıp ENTER tuşuna basın. Panelden aldığınız Node ID’yi yapıştırıp ENTER’a basın.
 
 7️⃣ Tebrikler! Nexus Node’unuz başarıyla çalışıyor. **
-
----------------------------------------------
-**🔧 Script Ne Yapıyor?**
-
-✅ Gerekli tüm bağımlılıkları yükler (Rust, Protobuf, Nexus CLI vb.)
-
-✅ 2GB Swap ekler (2 vCPU / 4GB RAM sunucular için optimize edildi)
-
-✅ Nexus CLI'yi yükler
-
-✅ Nexus Node'u screen içinde başlatır, böylece terminal kapansa bile çalışmaya devam eder
-
-✅ Otomatik çalıştırmak için tam konfigüre edilmiştir
 
 -----------------------------------
 📌 Kurulum Sonrası Kullanım Talimatları
